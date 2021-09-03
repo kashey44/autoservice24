@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>АВТОCЕРВИС24 LP Bootstrap 4</title>
+</head>
+<body>
+    <main>
+        
+      <header class="container d-flex flex-wrap justify-content-center py-3 mb-2">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+              <img class="__logo" src="img/full_LxuKST6B.svg" alt="">                
+              <span class="fs-4 ms-1">АВТО<span class="text-success">CЕРВИС</span>24</span>
+          </a>
+      
+          <ul class="nav justify-content-center mt-2">
+              <li class="nav-item"><a href="mailto:test@yandex.ru" target="_blank" class="nav-link">aservice24@yandex.ru</a></li>
+              <li class="nav-item"><a href="tel:+123456789" class="nav-link">+(555)1234567</a></li>                
+              <li class="nav-item">
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  ЗАКАЗАТЬ ЗВОНОК
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+          </ul>
+      </header>
+      <div class="border-bottom border-success opacity-50"></div>
+    
+       
+      
+      <div class="container col-xxl-8 px-4 py-2">
+        <div class="row flex-lg-row-reverse justify-content-center align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="img/952b4b0f7c9b5903bb9090f5960040dd.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-light lh-1 mb-3">Ремонт легковых автомобилей в срок и без переплат</h1>
+            <p class="lead">Получите расчет стоимости по фото и запишитесь на ремонт уже сегодня</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-5">
+              <button type="button" class="btn btn-success btn-lg px-4 me-md-2 fw-lighter">Записаться на диагностику</button>                
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container col-xxl-8 px-4 py-2">
+        <div class="row flex-lg justify-content-center align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="img/fda7bb872b3a9daaf32278b6dfc58798.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-light lh-1 mb-3">Будте уверены в своем автомобиле и нашем сервисе</h1>
+            <p class="lead">Опытные мастера вернут Ваш автомобиль в заводское состояние</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-5">
+              <button type="button" class="btn btn-success btn-lg px-4 me-md-2 fw-lighter">Записаться на ремонт</button>                
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fill text-black bg-warning">
+        <div class="container px-4 py-5 my-2 text-center">          
+          <h2 class="display-5 fw-light mb-5">Получите полный комплекс услуг по ремонту и обслуживанию автомобилей</h2>
+          <ul class="nav nav-pills row align-items-center mb-2" id="myTab" role="tablist">
+            <li class="nav-item col-6 col-sm-4 col-md-2" role="presentation">
+              <button class="nav-link text-uppercase active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Работаем со страховыми</button>
+            </li>
+            <li class="nav-item col-6 col-sm-4 col-md-2" role="presentation">
+              <button class="nav-link text-uppercase " id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Замена деталей</button>
+            </li>
+            <li class="nav-item col-6 col-sm-4 col-md-2" role="presentation">
+              <button class="nav-link text-uppercase" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Детейлинг</button>
+            </li>
+            <li class="nav-item col-6 col-sm-4 col-md-2" role="presentation">
+              <button class="nav-link text-uppercase" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Кузовной ремонт</button>
+            </li>
+            <li class="nav-item col-6 col-sm-4 col-md-2" role="presentation">
+              <button class="nav-link text-uppercase" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Шиномонтаж</button>
+            </li>
+            <li class="nav-item col-6 col-sm-4 col-md-2" role="presentation">
+              <button class="nav-link text-uppercase" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Документальное споровождение</button>
+            </li>
+            
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <div class="card bg-dark text-white">
+                <img src="img/авто-страхование.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay text-start">
+                  <h5 class="card-title">НАЛИЧИЕ СТРАХОВОГО ПОЛИСА ГАРАНТИРУЕТ ВАМ НЕ ТОЛЬКО ФИНАНСОВУЮ, НО И МОРАЛЬНУЮ ЗАЩИТУ</h5>
+                  <div class="col-lg-6 mx-auto">            
+                    <div class="position-absolute bottom-0 end-0 me-3 mb-3">
+                      <button type="button" class="btn btn-success btn-lg px-4 gap-3 fw-lighter">Записаться на консультацию</button>              
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+              
+                <div class="card bg-dark text-white">
+                  <img src="img/13.jpg" class="card-img" alt="...">
+                  <div class="card-img-overlay text-start">
+                    <h5 class="card-title">ЗАМЕНА ДЕТАЛЕЙ ГАРАНТИРУЕТ ВАМ НЕ ТОЛЬКО ФИНАНСОВУЮ, НО И МОРАЛЬНУЮ ЗАЩИТУ</h5>
+                    <div class="col-lg-6 mx-auto">            
+                      <div class="position-absolute bottom-0 end-0 me-3 mb-3">
+                        <button type="button" class="btn btn-success btn-lg px-4 gap-3 fw-lighter">Записаться на консультацию</button>              
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+              
+            </div>          
+
+
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+              <div class="card bg-dark text-white">
+                <img src="img/detail01.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay text-start">
+                  <h5 class="card-title">ДЕТЕЙЛИНГ ГАРАНТИРУЕТ ВАМ НЕ ТОЛЬКО ФИНАНСОВУЮ, НО И МОРАЛЬНУЮ ЗАЩИТУ</h5>
+                  <div class="col-lg-6 mx-auto">            
+                    <div class="position-absolute bottom-0 end-0 me-3 mb-3">
+                      <button type="button" class="btn btn-success btn-lg px-4 gap-3 fw-lighter">Записаться на консультацию</button>              
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        
+
+          <ul class="nav nav-pills justify-content-center pt-3 my-5" id="my2Tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="prefs-tab" data-bs-toggle="tab" data-bs-target="#prefs" type="button" role="tab" aria-controls="prefs" aria-selected="true"><h3>Приемущества</h3></button>
+            </li>
+            <li class="nav-item mx-3" role="presentation">
+              <button class="nav-link" id="aboutus-tab" data-bs-toggle="tab" data-bs-target="#aboutus" type="button" role="tab" aria-controls="aboutus" aria-selected="false"><h3>О нас</h3></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="services-tab" data-bs-toggle="tab" data-bs-target="#services" type="button" role="tab" aria-controls="services" aria-selected="false"><h3>Спектр услуг</h3></button>
+            </li>
+          </ul>
+
+          <div class="tab-content" id="my2TabContent">
+
+            <div class="tab-pane fade show active" id="prefs" role="tabpanel" aria-labelledby="prefs-tab">
+              <div class="card border-0">
+                <div class="row g-0">
+                  <div class="col-md-6">
+                    <img src="img/square_1280_7550abcfcb93d7b9a4561b700cf183c9.jpg" class=" rounded d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" height="500" loading="lazy">
+  
+                  </div>
+                  <div class="col-md-6">
+                    <div class="d-flex flex-column">
+                      <div class="card-body order-2 order-md-1">
+                        <h3 class="card-title">Срочный ремонт</h3>
+                        <p class="card-text">Нет времени ждать? Отремантируем Ваше авто вне очереди при доплате 10%</p>                          
+                      </div>
+                      <div class="card-body order-2 order-md-1">
+                        <h3 class="card-title">Ремонт любой сложности</h3>
+                        <p class="card-text">Оказываем полный спектр услуж, не нужно никуда идти</p>                          
+                      </div>
+                      <div class="card-body order-2 order-md-1">
+                        <h3 class="card-title">Гарантия 1 год на все виды работ</h3>
+                        <p class="card-text">Уверенно гарантируем качество и безопастность эксплуатации авто после проведения ремонтных и профилактических работ.</p>                          
+                      </div>
+                      <div class="card-body order-2 order-md-1">
+                        <h3 class="card-title">Ремонт авто за счет страховки</h3>
+                        <p class="card-text">На договорной основе производим ремонт автомобилей в соответствии с законом об ОСАГО для пострадавших в ДТП клиентов страховых компаний: ГАЙДЕ, НАСКО, ОПОРА, АНГАРА, ЭЛЕКТРОГАРАНТ, ВСК</p>                          
+                      </div>
+                      
+                      <div class="card-body order-1 order-md-2 border border-success border-start-1">
+                        <h5 class="card-title">Обладатель Всеросийской ежегодной премии г.Севастополь "ТОП СТО"</h5>
+                        
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="aboutus" role="tabpanel" aria-labelledby="aboutus-tab">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <h5>Ваше авто в надежных руках</h5>
+                    <img src="img/car1.jpg" class="d-block w-100" alt="Люди">
+                  </div>
+                  <div class="carousel-item">
+                    <h5>Ваше Оборудование в надежных руках</h5>
+                    <img src="img/car2.jpg" class="d-block w-100" alt="Машины">
+                  </div>
+                  <div class="carousel-item">
+                    <h5>Ваше страхование в надежных руках</h5>
+                    <img src="img/car3.jpg" class="d-block w-100" alt="Страхование">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+
+
+            <div class="tab-pane fade" id="services" role="tabpanel" aria-labelledby="services-tab">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+                <div class="col d-flex align-items-start">
+                  <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
+                  <div>
+                    <h4 class="fw-bold mb-0">Featured title</h4>
+                    <p>Paragraph of text beneath the heading to explain the heading.</p>
+                  </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                  <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"></use></svg>
+                  <div>
+                    <h4 class="fw-bold mb-0">Featured title</h4>
+                    <p>Paragraph of text beneath the heading to explain the heading.</p>
+                  </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                  <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"></use></svg>
+                  <div>
+                    <h4 class="fw-bold mb-0">Featured title</h4>
+                    <p>Paragraph of text beneath the heading to explain the heading.</p>
+                  </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                  <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"></use></svg>
+                  <div>
+                    <h4 class="fw-bold mb-0">Featured title</h4>
+                    <p>Paragraph of text beneath the heading to explain the heading.</p>
+                  </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                  <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"></use></svg>
+                  <div>
+                    <h4 class="fw-bold mb-0">Featured title</h4>
+                    <p>Paragraph of text beneath the heading to explain the heading.</p>
+                  </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                  <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"></use></svg>
+                  <div>
+                    <h4 class="fw-bold mb-0">Featured title</h4>
+                    <p>Paragraph of text beneath the heading to explain the heading.</p>
+                  </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                  <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"></use></svg>
+                  <div>
+                    <h4 class="fw-bold mb-0">Featured title</h4>
+                    <p>Paragraph of text beneath the heading to explain the heading.</p>
+                  </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                  <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"></use></svg>
+                  <div>
+                    <h4 class="fw-bold mb-0">Featured title</h4>
+                    <p>Paragraph of text beneath the heading to explain the heading.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>        
+          <div class="d-grid gap-2 d-md-flex justify-content-center mt-5">
+            <button type="button" class="btn btn-success btn-lg px-4 me-md-2 fw-lighter">Получить консультацию</button>                
+          </div>
+        </div>
+      </div>
+
+        <div class="container">
+
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3 mt-5">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="img/case.jpg" alt="">
+    
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="img/case.jpg" alt="">
+    
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="img/case.jpg" alt="">
+    
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="img/case.jpg" alt="">
+    
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+
+          </div>
+        </div>
+        <div class="container px-4 py-5 my-2 text-center">
+          <h2 class="display-5 fw-light mb-5">Как мы работаем</h2>
+          <div id="hscroll" class="row hscroll">
+            <div  class=" d-flex justify-content-start align-items-center ">
+              <div class="">
+                <img src="img/stage.jpg" alt="">
+              </div>
+              <div class="">
+                <img src="img/stage.jpg" alt="">
+              </div>
+              <div class="">
+                <img src="img/stage.jpg" alt="">
+              </div>
+              <div class="">
+                <img src="img/stage.jpg" alt="">
+              </div>
+              <div class="">
+                <img src="img/stage.jpg" alt="">
+              </div>
+              <div class="">
+                <img src="img/stage.jpg" alt="">
+              </div>
+              <div class="">
+                <img src="img/stage.jpg" alt="">
+              </div>
+            </div>
+            <div class=" d-flex justify-content-start align-items-top">
+              <button type="button" class="btn px-5  btn-info mx-3">Заявка</button>
+              <button type="button" class="btn px-5  btn-info mx-3">Запись</button>
+              <button type="button" class="btn px-5  btn-info mx-3">Осмотр</button>
+              <button type="button" class="btn px-5  btn-info mx-3">Расчет стоимости</button>
+              <button type="button" class="btn px-5  btn-info mx-3">Составление заказ-наряда</button>
+              <button type="button" class="btn px-5  btn-info mx-3">Выполнение работы</button>
+              <button type="button" class="btn px-5  btn-info mx-3">Контроль мастера-приемщика</button>
+              <button type="button" class="btn px-5  btn-info mx-3">Акт выполненных работ</button>
+
+            </div>
+          </div>
+          <button type="button" class="btn btn-success mt-5 btn-lg fw-lighter">Записатся на осмотр</button>
+        </div>
+
+        <div class="container-fill text-black bg-warning">
+          <div class="container px-4 py-5 my-2 text-center">          
+            <h2 class="display-5 fw-light mb-5">О нас говорят</h2>
+          
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="img/picture-216607-7795a.jpg" alt="">
+      
+                  <div class="card-body bg-white">
+                    <p class="card-text">Идеально для любителей нюда 🥥 - базовые оттенки в разных финишах, простота использования и приятная стоимость. Свотчи, фото макияжа и все о моих впечатлениях от палетки.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      
+                      <small class="text-muted">23.02.21</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="img/picture-216607-7795a.jpg" alt="">
+      
+                  <div class="card-body bg-white">
+                    <p class="card-text">Идеально для любителей нюда 🥥 - базовые оттенки в разных финишах, простота использования и приятная стоимость. Свотчи, фото макияжа и все о моих впечатлениях от палетки.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      
+                      <small class="text-muted">23.02.21</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="img/picture-216607-7795a.jpg" alt="">
+      
+                  <div class="card-body bg-white">
+                    <p class="card-text">Идеально для любителей нюда 🥥 - базовые оттенки в разных финишах, простота использования и приятная стоимость. Свотчи, фото макияжа и все о моих впечатлениях от палетки.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      
+                      <small class="text-muted">23.02.21</small>
+                    </div>
+                  </div>
+                </div>
+              </div>             
+            </div>
+            
+            <button type="button" class="btn btn-success btn-lg mt-5 fw-lighter">Заказать консультацию</button>
+          </div>
+          
+          <div class="container px-4 text-center">   
+            <h2 class="display-5 fw-light mb-5">Часто задаваеммые вопросы</h2>       
+            <div class="accordion shadow-sm" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Вопрос о страховании
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Какова квалификация специалистов
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Где двигатель у ЗАЗ
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button type="button" class="btn btn-info my-5 btn-lg fw-light">Записатся и получить скидку 10%</button>
+          </div>
+        </div>
+
+
+      
+        
+      
+        
+      
+        
+      </main>
+      <footer class="container text-secondary px-4 py-5 text-left">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6  foot-section">
+            <h3>Адреса СТО</h3>
+            <address>
+              <span>Севастополь, ул. Героев Бреста, д. 116</span></br>
+              <span>Севастополь, ул. Героев Бреста, д. 116</span></br>
+              <span>Севастополь, ул. Героев Бреста, д. 116</span></br>
+              <span>Севастополь, ул. Героев Бреста, д. 116</span></br>
+              <span>Севастополь, ул. Героев Бреста, д. 116</span></br>   
+            </address>
+            <small class="d-block mb-3 text-muted">© 2017–2021</small>
+          </div>
+          <div class="col-xs-12 col-sm-6  foot-section">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aad439ff4417c86f681145939aef776ec549afcbb2775fc9ca4bb2966c9ef28be&amp;width=100%25&amp;height=400&amp;lang=ru_UA&amp;scroll=true"></script>
+          </div>
+        </div>
+      </footer>
+      <script>
+        document.getElementById("hscroll")
+        .addEventListener('wheel', function(event) {
+          if (event.deltaMode == event.DOM_DELTA_PIXEL) {
+            var modifier = 1;
+            // иные режимы возможны в Firefox
+          } else if (event.deltaMode == event.DOM_DELTA_LINE) {
+            var modifier = parseInt(getComputedStyle(this).lineHeight);
+          } else if (event.deltaMode == event.DOM_DELTA_PAGE) {
+            var modifier = this.clientHeight;
+          }
+          if (event.deltaY != 0) {
+            // замена вертикальной прокрутки горизонтальной
+            this.scrollLeft += modifier * event.deltaY;
+            event.preventDefault();
+          }
+        });
+      </script>
+</body>
+</html>

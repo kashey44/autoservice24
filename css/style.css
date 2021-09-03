@@ -1,0 +1,43 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  background: #101c2c;
+  color: #fff;
+}
+
+header .__logo {
+  height: 54px;
+}
+
+.card {
+  background: 0;
+}
+
+.card .card-img-overlay {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-transition: display 1s;
+  transition: display 1s;
+}
+
+.card:hover .card-img-overlay {
+  display: block;
+}
+
+.hscroll {
+  min-height: 100px;
+  overflow-x: auto;
+}
+
+.hscroll::-webkit-scrollbar {
+  display: none;
+}
+
+.hscroll > div > div {
+  min-width: 200px;
+  margin: 15px;
+}
+
+.hscroll > div > div img {
+  max-width: 200px;
+}
+/*# sourceMappingURL=style.css.map */
